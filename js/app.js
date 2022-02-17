@@ -25,9 +25,6 @@ const Calculate = toSelectElement('calculate').addEventListener('click', functio
 
     }
 
-    // else if (isNaN(Number)) {
-    //     verifyInput1();
-    // }
 
 
     let totalIncome = parseInt(totalIncomeText);
@@ -63,10 +60,6 @@ const saveMoney = toSelectElement('saving-click').addEventListener('click', func
         (parseBalance == totalincome) || (parseBalance == afterCal)) {
         verifyInput2();
     }
-
-    // else if (isNaN) {
-    //     verifyInput2();
-    // }
 
 
     savingAmount.innerText = afterCal;
